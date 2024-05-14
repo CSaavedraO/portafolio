@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.header nav {
+    margin-top: 10px;
+}
+.header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.header nav a:hover {
+    text-decoration: underline;
+}
+.content{
+    margin: 15px;
+    padding-top: 100px; 
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.section {
+    padding-top: 100px; 
+    margin-top: -100px; 
+}
+
+#sobre-mi > p{
+    text-align: justify;
+    
+}
+#educacion h4{
+    text-align: justify;
+}
+.section h2 {
+    color: #333;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.section p {
+    color: #666;
+}
+
+
+.list-conteiner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list{
+    width: 70%;
+    margin-top: -5px;
+    margin-left: 40px;
+}
+
+.project .imagen-container1{
+    text-align: center;
+}
+
+.project .imagen-container2 {
+    text-align: center; 
+}
+
+.project .imagen-container2 img {
+    display: inline-block; 
+    max-width: 650px;
+    height: 400px;
+}
+
+.project .imagen-container3 {
+    text-align: center; 
+}
+
+.project .imagen-container3 img {
+    display: inline-block; 
+    max-width: 650px; 
+}
+
+.project p{
+    padding-left: 35px;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
